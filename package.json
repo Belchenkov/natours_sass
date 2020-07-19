@@ -1,0 +1,25 @@
+{
+  "name": "natours_sass",
+  "version": "1.0.0",
+  "description": "Lading Page for natours",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belchenkov/natours_sass.git"
+  },
+  "author": "Aleksey Belchenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Belchenkov/natours_sass/issues"
+  },
+  "homepage": "https://github.com/Belchenkov/natours_sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
