@@ -24,9 +24,14 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem;
+  padding: 0;
 
   @include respond(tab-port) {
     padding: 0;
   }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }
